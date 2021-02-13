@@ -13,7 +13,7 @@ int main(){
 	ios::sync_with_stdio(0); cin.tie(0);
 	int _test_ = 1;
 	#ifdef test
-		cin >> _test_;
+	    cin >> _test_;
 	#endif
 	while(_test_--) solve();
 }
