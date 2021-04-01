@@ -1,5 +1,3 @@
-// credits: https://github.com/stevenhalim/cpbook-code
-
 #define LSOne(S) ((S) & -(S))                    // the key operation
 
 typedef long long ll;                            // for extra flexibility
@@ -66,7 +64,7 @@ class RUPQ {                                     // RUPQ variant
 	FenwickTree ft;                                // internally use PURQ FT
     public:
 	RUPQ(int m) : ft(FenwickTree(m)) {}
-	void range_update(int ui, int uj, int v) {
+	void range_update(int ui, int uj, ll v) {
 	    ft.update(ui, v);                            // [ui, ui+1, .., m] +v
 	    ft.update(uj+1, -v);                         // [uj+1, uj+2, .., m] -v
 	}                                              // [ui, ui+1, .., uj] +v
@@ -79,7 +77,7 @@ class RURQ  {                                    // RURQ variant
 	FenwickTree purq;                              // one PURQ
     public:
 	RURQ(int m) : rupq(RUPQ(m)), purq(FenwickTree(m)) {} // initialization
-	void range_update(int ui, int uj, int v) {
+	void range_update(int ui, int uj, ll v) {
 	    rupq.range_update(ui, uj, v);                // [ui, ui+1, .., uj] +v
 	    purq.update(ui, v*(ui-1));                   // -(ui-1)*v before ui
 	    purq.update(uj+1, -v*uj);                    // +(uj-ui+1)*v after uj

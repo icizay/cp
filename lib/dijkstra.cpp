@@ -25,7 +25,7 @@ adj.resize(n);
 priority_queue<array<int64_t, 2>> q;
 int s; // starting node
 dist[s] = 0;
-q.push({0,x});
+q.push({0,s});
 while(!q.empty()){
     int a = q.top()[1]; q.pop();
     if(processed[a]) continue;

@@ -1,18 +1,18 @@
 #include <bits/stdc++.h>
 using namespace std;
-	
+
 int n, scc; 
 vector<vector<array<int, 2>>> adj, t_adj; // normal and transposed adj
 vector<int> s;
 vector<bool> vis;
 
 void dfs(int u, int pass){
-	vis[u] = true;
-	vector<array<int, 2>> neighbor = (pass == 1) ? adj[u] : t_adj[u];
-	for(auto &[v, w] : neighbor)
-		if(!vis[v])
-			dfs(v, pass);
-	s.emplace_back(u);
+    vis[u] = true;
+    vector<array<int, 2>> neighbor = (pass == 1) ? adj[u] : t_adj[u];
+    for(auto &[v, w] : neighbor)
+	if(!vis[v])
+	    dfs(v, pass);
+    s.emplace_back(u);
 }
 
 // adj.resize(n)
@@ -21,38 +21,38 @@ void dfs(int u, int pass){
 // vis.resize(n, -1)
 
 void solve(){
-	int m; cin >> n >> m;
-	adj.resize(n);
-	t_adj.resize(n);
-	s.clear();
-	vis.resize(n, false);
+    int m; cin >> n >> m;
+    adj.resize(n);
+    t_adj.resize(n);
+    s.clear();
+    vis.resize(n, false);
 
-	for(int i = 0; i < m; ++i){
-		int u, v, w; cin >> u >> v >> w;
-		adj[u].push_back({v, w});
-		t_adj[v].push_back({u, w});
-	}
+    for(int i = 0; i < m; ++i){
+	int u, v, w; cin >> u >> v >> w;
+	adj[u].push_back({v, w});
+	t_adj[v].push_back({u, w});
+    }
 
-	for(int i = 0; i < n; ++i)
-		if(!vis[i]) dfs(i, 1);
+    for(int i = 0; i < n; ++i)
+	if(!vis[i]) dfs(i, 1);
 
-	vis.assign(n, false);
+    vis.assign(n, false);
 
-	for(int i = n - 1; i >= 0; --i)
-		if(!vis[s[i]])
-			++scc, dfs(s[i], 2);
-		
-	cout << scc << "\n";	
+    for(int i = n - 1; i >= 0; --i)
+	if(!vis[s[i]])
+	    ++scc, dfs(s[i], 2);
+
+    cout << scc << "\n";	
 }
 
 /*
 
-5 5
-1 0 0
-0 2 0
-2 1 0
-0 3 0
-3 4 0
+   5 5
+   1 0 0
+   0 2 0
+   2 1 0
+   0 3 0
+   3 4 0
 
 */
 

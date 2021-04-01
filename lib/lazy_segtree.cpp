@@ -1,7 +1,7 @@
 // credits: https://github.com/stevenhalim/cpbook-code
 
 class SegmentTree {                              // OOP style
-    private:
+	private:
 	int n;                                         // n = (int)A.size()
 	vector<int> A, st, lazy;                                // the arrays
 

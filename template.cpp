@@ -1,12 +1,9 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-void solve(){
-
-}
+#define ll long long
+#define all(x) x.begin(), x.end()
 
 int main(){
-    ios::sync_with_stdio(0); cin.tie(0);
-    int test = 1;
-    while(test--) solve();
+	ios::sync_with_stdio(0); cin.tie(0);
 }

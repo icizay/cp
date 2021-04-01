@@ -1,4 +1,5 @@
 // not really sure ig
+// cycle can be restored with parent array
 
 int n;
 vector<int> parent;
