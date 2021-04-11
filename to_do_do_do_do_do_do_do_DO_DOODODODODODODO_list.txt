@@ -1,0 +1,101 @@
+math:
+1- phi-totient func & extensions
+2- ext euc w/ bezouts identity (revise)
+3- catalan numbers
+4- ternary search (revise)
+5- expected value (revise ~ :sadge:)
+
+advanced math:
+1- floyd's cycle finding algo
+2- pollard rho
+3- chinese remainder theorem
+4- FFT
+5- lucas' theorem(?)
+6- gaussian elimination algo
+
+graph:
+1- game theory on graphs
+    https://www.dropbox.com/sh/ancvcf5o2yijdll/AAAG4vIagsXKc9glOtsv96SGa/Graph%20%C3%9Czerinde%20Oyunlar.pdf?dl=0
+2- LCA 
+3- dfs tree applications(ie scc, bridge, artic. po., revise)
+4- eulerian graph(revise)
+5- prims mst, bellman-ford, spfa sp(revise)
+6- graph matching
+ 6.1- unweighted maximum cardinality bipartite matching(mcbm)
+ 6.2- weighted mcbm / unweighted-weighted mcm ~ hopcroft-karp algo ~ hungarian algo 
+7- flow
+ 7.1- ford fulkerson algo 
+ 7.2- edmons-karp algo 
+ 7.3- dinic's algo 
+ 7.4- push-relabel
+8- heavy-light decomposition
+
+data structures:
+1- mo's algorithm
+ 1.1- on trees (https://codeforces.com/blog/entry/43230)
+2- interval tree 
+    https://www.dropbox.com/sh/ancvcf5o2yijdll/AACM8f7EKjSsZn2JMAuXNriua/IntervalTree.pdf?dl=0
+3- treap
+4- advanced segment tree variations
+5- dsu on sack ~ smaller to large ~ set swap
+6- ordered set(?)
+7- sparse table(revise)
+8- sqrt decomposition - sqrt tree
+
+string-stuff ~ and ds:
+1- trie
+2- suffix tree & array
+3- longest common substring(code it sometime)
+4- Knuth-Morris-Pratt(KMP) algo
+5- string matching in 2d grid
+6- rolling hash
+7- robin-karp string matching algo
+8- z function
+9- aho-korasick
+
+geometry:
+1- learn geometry
+2- sweepline
+    https://www.dropbox.com/sh/ancvcf5o2yijdll/AAAWKdcbVAy4saXSMkddfEHZa/SweepLine.pdf?dl=0
+3- convex hull, cutting, and all the other fancy stuff
+4- 3d ge.. lol
+
+dp-
+1- practice matrix exp (https://www.youtube.com/watch?v=RA_SpxP2t54)
+2- SOS(sum over subsets) DP
+3- practicte bitmask dp
+4- learn fancy tricks:
+ 4.1- alien's trick
+ 4.2- convex hull trick 
+5- tsp
+
+advanced search techniques:
+1- backtracking with bitmask
+2- state-space search (w/ bfs-dfs-dijkstra)
+3- meet in the middle technique
+4- A*, IDA*: informed sesarch
+
+various:
+1- parallel binary search  
+2- game theory and more(https://codeforces.com/blog/entry/66040)
+    https://www.dropbox.com/sh/ancvcf5o2yijdll/AADO5fwX8WlwnbwePMDF77OAa/Game_Theory.pdf?dl=0
+
+check:
+1- https://codeforces.com/blog/entry/48417
+2- https://codeforces.com/blog/entry/83969
+
+very advanced, probably not needed, but cool:
+1- NP-hard/complete problems:
+ 1.1- pseudo polynomial:
+  1.1.1- knapsack, subset-sum, coin-change
+ 1.2- TSP(travelling salesman problem)
+ 1.3- lamiltonian path-tour
+ 1.4- longest path
+ 1.5- max-independent-set, min-vertex-cover
+ 1.6- min-set-cover, min-path-pcover
+ 1.7- SAT, satisfiability
+ 1.8- steiner tree
+ 1.9- graph coloring
+ 2.0- min-clique-cover
+2- matrix-chain multiplication
+3- tree isomorphism
