@@ -1,17 +1,11 @@
+// [done] in : dd/mm/yy 
+
 math:
 1- phi-totient func & extensions
 2- ext euc w/ bezouts identity (revise)
 3- catalan numbers
 4- ternary search (revise)
 5- expected value (revise ~ :sadge:)
-
-advanced math:
-1- floyd's cycle finding algo
-2- pollard rho
-3- chinese remainder theorem
-4- FFT
-5- lucas' theorem(?)
-6- gaussian elimination algo
 
 graph:
 1- game theory on graphs
@@ -38,7 +32,7 @@ data structures:
 3- treap
 4- advanced segment tree variations
 5- dsu on sack ~ smaller to large ~ set swap
-6- ordered set(?)
+6- ordered set(revise, experiment)
 7- sparse table(revise)
 8- sqrt decomposition - sqrt tree
 
@@ -99,3 +93,11 @@ very advanced, probably not needed, but cool:
  2.0- min-clique-cover
 2- matrix-chain multiplication
 3- tree isomorphism
+
+advanced math:
+1- floyd's cycle finding algo
+2- pollard rho 
+3- chinese remainder theorem
+4- FFT
+5- lucas' theorem(?)
+6- gaussian elimination algo
