@@ -73,6 +73,7 @@ various:
 1- parallel binary search  
 2- game theory and more(https://codeforces.com/blog/entry/66040)
     https://www.dropbox.com/sh/ancvcf5o2yijdll/AADO5fwX8WlwnbwePMDF77OAa/Game_Theory.pdf?dl=0
+3- code bigint for fun
 
 check:
 1- https://codeforces.com/blog/entry/48417
