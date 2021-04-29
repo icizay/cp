@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-const int N = 1 << 20; // limits kid
+const int N = 1 << 20; // limits
 int n, m;
 
 struct node{
@@ -22,7 +22,7 @@ void upd(int pos, int64_t val, int cur = 1, int l = 0, int r = n - 1){
 }
 
 void push(int cur, int l, int r){
-    if(lazy[cur].v == 0) return; // no need to update anything kids
+    if(lazy[cur].v == 0) return; // no need to update anything
     st[cur].sum += (r - l + 1) * lazy[cur].v;
     if(l != r){ // if not a leaf
 	lazy[cur * 2].v += lazy[cur].v; // (push lazy to children) keep in mind (lazy[def] = 0) may be dum for some cases
