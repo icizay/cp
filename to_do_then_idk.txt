@@ -3,17 +3,17 @@
 math:
 1- phi-totient func & extensions
 2- ext euc w/ bezouts identity (revise)
-3- catalan numbers
+3- catalan numbers // done 05/2021
 4- ternary search (revise)
 5- expected value (revise ~ :sadge:)
 
 graph:
 1- game theory on graphs
     https://www.dropbox.com/sh/ancvcf5o2yijdll/AAAG4vIagsXKc9glOtsv96SGa/Graph%20%C3%9Czerinde%20Oyunlar.pdf?dl=0
-2- LCA 
+2- LCA // done 05/2021
 3- dfs tree applications(ie scc, bridge, artic. po., revise)
-4- eulerian graph(revise)
-5- prims mst, bellman-ford, spfa sp(revise)
+4- eulerian graph(revise) // done 05/2021
+5- prims mst, bellman-ford, spfa sp(revise) // done 05/2021
 6- graph matching
  6.1- unweighted maximum cardinality bipartite matching(mcbm)
  6.2- weighted mcbm / unweighted-weighted mcm ~ hopcroft-karp algo ~ hungarian algo 
@@ -32,7 +32,7 @@ data structures:
 3- treap
 4- advanced segment tree variations (persistent - beats, etc.)
 5- dsu on sack ~ smaller to large ~ set swap
-6- ordered set(revise, experiment)
+6- ordered set(revise, experiment) // done 05/2021
 7- sparse table(revise)
 8- sqrt decomposition - sqrt tree
 
