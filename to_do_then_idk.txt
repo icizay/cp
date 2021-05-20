@@ -18,14 +18,14 @@ graph:
  6.1- unweighted maximum cardinality bipartite matching(mcbm)
  6.2- weighted mcbm / unweighted-weighted mcm ~ hopcroft-karp algo ~ hungarian algo 
 7- flow
- 7.1- ford fulkerson algo 
+ 7.1- ford fulkerson algo // done 05/2021
  7.2- edmons-karp algo 
  7.3- dinic's algo 
  7.4- push-relabel
 8- heavy-light decomposition
 
 data structures:
-1- mo's algorithm
+1- mo's algorithm // done 05/2021 (practice problems)
  1.1- on trees (https://codeforces.com/blog/entry/43230)
 2- interval tree 
     https://www.dropbox.com/sh/ancvcf5o2yijdll/AACM8f7EKjSsZn2JMAuXNriua/IntervalTree.pdf?dl=0
@@ -34,7 +34,7 @@ data structures:
 5- dsu on sack ~ smaller to large ~ set swap
 6- ordered set(revise, experiment) // done 05/2021
 7- sparse table(revise)
-8- sqrt decomposition - sqrt tree
+8- sqrt decomposition - sqrt tree // done 05/2021
 
 string-stuff ~ and ds:
 1- trie
@@ -57,15 +57,15 @@ geometry:
 dp-
 1- practice matrix exp (https://www.youtube.com/watch?v=RA_SpxP2t54)
 2- SOS(sum over subsets) DP
-3- practicte bitmask dp
+3- practicte bitmask dp // done 05/2021 (never ends)
 4- learn fancy tricks:
  4.1- alien's trick
  4.2- convex hull trick 
 5- tsp
 
 advanced search techniques:
-1- backtracking with bitmask
-2- state-space search (w/ bfs-dfs-dijkstra)
+1- backtracking with bitmask // done trivial ones ig
+2- state-space search (w/ bfs-dfs-dijkstra) // done trivial ones ig
 3- meet in the middle technique
 4- A*, IDA*: informed sesarch
 
