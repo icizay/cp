@@ -33,12 +33,12 @@ data structures:
 4- advanced segment tree variations (persistent - beats, etc.)
 5- dsu on sack ~ smaller to large ~ set swap
 6- ordered set(revise, experiment) // done 05/2021
-7- sparse table(revise)
+7- sparse table(revise) // done 05/2021
 8- sqrt decomposition - sqrt tree // done 05/2021
 
 string-stuff ~ and ds:
-1- trie
-2- suffix tree & array
+1- trie // done 05/2021 (practice problems)
+2- suffix tree & array // done 05/2021 (practice problems)
 3- longest common substring(code it sometime)
 4- Knuth-Morris-Pratt(KMP) algo
 5- string matching in 2d grid
@@ -60,12 +60,15 @@ dp-
 3- practicte bitmask dp // done 05/2021 (never ends)
 4- learn fancy tricks:
  4.1- alien's trick
- 4.2- convex hull trick 
-5- tsp
+ 4.2- convex hull trick // on it(:o) 05/2021
+ 4.3- d&c dp // also on it(:o) 05/2021
+ 4.4- knuth opt
+ 4.5- also rather common techniques(range query optimizations, exploiting monotonic properties, ...)
+5- travelling salesman pb
 
 advanced search techniques:
-1- backtracking with bitmask // done trivial ones ig
-2- state-space search (w/ bfs-dfs-dijkstra) // done trivial ones ig
+1- backtracking with bitmask // done trivial pbs
+2- state-space search (w/ bfs-dfs-dijkstra) // done trivial pbs
 3- meet in the middle technique
 4- A*, IDA*: informed sesarch
 
