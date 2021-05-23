@@ -1,6 +1,8 @@
 template<int mxN> struct DSU{                
 	int p[mxN], r[mxN], sz[mxN];                 
-	DSU(){}
+	DSU(){
+		for(int i = 0; i < mxN; ++i) p[i] = i, sz[i] = 1;
+	}
 	int get(int x){
 		if(p[x] == x) return x;
 		else return p[x] = get(p[x]);
