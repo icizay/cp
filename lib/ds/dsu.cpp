@@ -1,5 +1,4 @@
-class DSU{                
-	static const int mxN = 1e5 + 5;                
+template<int mxN> struct DSU{                
 	int st_sz, p[mxN], r[mxN], sz[mxN];                 
 	DSU(int n) : st_sz(n) {}
 	int get(int x){
