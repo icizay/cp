@@ -23,6 +23,7 @@ graph:
  7.3- dinic's algo 
  7.4- push-relabel
 8- heavy-light decomposition
+9- centroids / centroid decomposition
 
 data structures:
 1- mo's algorithm // done 05/2021 (practice problems)
@@ -30,7 +31,7 @@ data structures:
 2- interval tree 
     https://www.dropbox.com/sh/ancvcf5o2yijdll/AACM8f7EKjSsZn2JMAuXNriua/IntervalTree.pdf?dl=0
 3- treap
-4- advanced segment tree variations (persistent - beats, etc.)
+4- advanced segment tree variations (persistent - beats - sparse, etc.)
 5- dsu on sack ~ smaller to large ~ set swap
 6- ordered set(revise, experiment) // done 05/2021
 7- sparse table(revise) // done 05/2021
@@ -51,7 +52,7 @@ geometry:
 1- learn geometry
 2- sweepline
     https://www.dropbox.com/sh/ancvcf5o2yijdll/AAAWKdcbVAy4saXSMkddfEHZa/SweepLine.pdf?dl=0
-3- convex hull, cutting, and all the other fancy stuff
+3- convex hull ~ graham scan, cutting, and all the other fancy stuff
 4- 3d ge.. lol
 
 dp-
@@ -77,6 +78,7 @@ various:
 2- game theory and more(https://codeforces.com/blog/entry/66040)
     https://www.dropbox.com/sh/ancvcf5o2yijdll/AADO5fwX8WlwnbwePMDF77OAa/Game_Theory.pdf?dl=0
 3- code bigint for fun
+4- memorize a custom hash function
 
 check:
 1- https://codeforces.com/blog/entry/48417
