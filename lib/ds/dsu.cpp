@@ -1,6 +1,6 @@
 template<int mxN> struct DSU{                
-	int st_sz, p[mxN], r[mxN], sz[mxN];                 
-	DSU(int n) : st_sz(n) {}
+	int p[mxN], r[mxN], sz[mxN];                 
+	DSU(){}
 	int get(int x){
 		if(p[x] == x) return x;
 		else return p[x] = get(p[x]);
@@ -14,6 +14,5 @@ template<int mxN> struct DSU{
 	    p[x] = y;                            
 	    if (r[x] == r[y]) ++r[y];         
 	    sz[y] += sz[x];                    
-		--st_sz;
 	}
 };
