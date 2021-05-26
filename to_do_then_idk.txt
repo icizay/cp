@@ -1,4 +1,6 @@
 // [done] in : dd/mm/yy 
+// ## -> solve problems
+// *##* -> solve more problems than ##
 
 math:
 1- phi-totient func & extensions
@@ -6,6 +8,8 @@ math:
 3- catalan numbers // done 05/2021
 4- ternary search (revise)
 5- expected value (revise ~ :sadge:)
+6- generating functions
+	https://codeforces.com/blog/entry/77468 (zscoder ~ ^)
 
 graph:
 1- game theory on graphs
@@ -25,21 +29,26 @@ graph:
 8- heavy-light decomposition
 9- centroids / centroid decomposition
 
+https://codeforces.com/blog/entry/89571 (k-th smallest edge on a tree's path)
+
 data structures:
-1- mo's algorithm // done 05/2021 (practice problems)
- 1.1- on trees (https://codeforces.com/blog/entry/43230)
-2- interval tree 
+1- interval tree & treap
     https://www.dropbox.com/sh/ancvcf5o2yijdll/AACM8f7EKjSsZn2JMAuXNriua/IntervalTree.pdf?dl=0
-3- treap
-4- advanced segment tree variations (persistent - beats - sparse, etc.)
-5- dsu on sack ~ smaller to large ~ set swap
-6- ordered set(revise, experiment) // done 05/2021
-7- sparse table(revise) // done 05/2021
-8- sqrt decomposition - sqrt tree // done 05/2021
+	https://codeforces.com/blog/entry/46507 (xellos ~ ^)
+2- advanced segment tree variations also techniques (persistent - beats - sparse, etc.)
+	https://codeforces.com/blog/entry/49446 (merging segment tree - to solve sorted list pbs)
+3- dsu on sack ~ smaller to large ~ set swap
+4- ordered set(revise, experiment) // done 05/2021
+5- sparse table(revise) // done 05/2021 (##)
+6- sqrt decomposition - sqrt tree // done 05/2021
+ 7.1- Mo's // done 05/2021
+  7.1.1- on Trees (https://codeforces.com/blog/entry/43230)	
+  
+https://codeforces.com/blog/entry/83969 (representing integer sets)
 
 string-stuff ~ and ds:
-1- trie // done 05/2021 (practice problems)
-2- suffix tree & array // done 05/2021 (practice problems)
+1- trie // done 05/2021 (##)
+2- suffix tree & array // done 05/2021 (##)
 3- longest common substring(code it sometime)
 4- Knuth-Morris-Pratt(KMP) algo
 5- string matching in 2d grid
@@ -52,39 +61,63 @@ geometry:
 1- learn geometry
 2- sweepline
     https://www.dropbox.com/sh/ancvcf5o2yijdll/AAAWKdcbVAy4saXSMkddfEHZa/SweepLine.pdf?dl=0
-3- convex hull ~ graham scan, cutting, and all the other fancy stuff
+3- convex hull ~ graham scan, andrew's monotone chain, cutting, and all the other fancy stuff
 4- 3d ge.. lol
 
-dp-
-1- practice matrix exp (https://www.youtube.com/watch?v=RA_SpxP2t54)
+*dp*-
+1- practice matrix exp 
+(https://www.youtube.com/watch?v=RA_SpxP2t54) (##)
 2- SOS(sum over subsets) DP
-3- practicte bitmask dp // done 05/2021 (never ends)
+3- practicte bitmask dp // done 05/2021 ((*##*))
 4- learn fancy tricks:
  4.1- alien's trick
- 4.2- convex hull trick // on it(:o) 05/2021
- 4.3- d&c dp // also on it(:o) 05/2021
+ 4.2- convex hull trick // (*##*)
+  4.2.1- li chao tree 
+ 4.3- d&c dp // (*##*)
  4.4- knuth opt
  4.5- also rather common techniques(range query optimizations, exploiting monotonic properties, ...)
+ https://codeforces.com/blog/entry/8219 (optimizations in brief)
+ http://maratona.ic.unicamp.br/MaratonaVerao2017/documents/dp.pdf (same but more detailed)
 5- travelling salesman pb
 
 advanced search techniques:
-1- backtracking with bitmask // done trivial pbs
-2- state-space search (w/ bfs-dfs-dijkstra) // done trivial pbs
+1- backtracking with bitmask // done trivial pbs (##)
+2- state-space search (w/ bfs-dfs-dijkstra) // done trivial pbs (##)
 3- meet in the middle technique
 4- A*, IDA*: informed sesarch
 
 various:
 1- parallel binary search  
-2- game theory and more(https://codeforces.com/blog/entry/66040)
-    https://www.dropbox.com/sh/ancvcf5o2yijdll/AADO5fwX8WlwnbwePMDF77OAa/Game_Theory.pdf?dl=0
 3- code bigint for fun
 4- memorize a custom hash function
+https://codeforces.com/blog/entry/62393 (neal ~ hash)
+5- https://codeforces.com/blog/entry/48417 (adamant ~ general ideas)
 
-check:
-1- https://codeforces.com/blog/entry/48417
-2- https://codeforces.com/blog/entry/83969
 
-very advanced, probably not needed, but cool:
+game theory:
+1- sprague-grundy
+ 1.1- grundy number
+ 
+2- nim
+ 2.1- nim sum
+ 2.2- misere nim
+ 2.3- bogus nim
+
+https://codeforces.com/blog/entry/66040 (intuition behind nim & grundy)
+https://www.dropbox.com/sh/ancvcf5o2yijdll/AADO5fwX8WlwnbwePMDF77OAa/Game_Theory.pdf?dl=0
+
+
+[very advanced, probably not needed, but cool]
+-understanding them might be helpful
+
+advanced math:
+1- floyd's tortoise and hare algo
+2- pollard rho 
+3- chinese remainder theorem
+4- FFT
+5- lucas' theorem(?)
+6- gaussian elimination algo
+
 1- NP-hard/complete problems:
  1.1- pseudo polynomial:
   1.1.1- knapsack, subset-sum, coin-change
@@ -94,19 +127,12 @@ very advanced, probably not needed, but cool:
  1.5- max-independent-set, min-vertex-cover
  1.6- min-set-cover, min-path-pcover
  1.7- SAT, satisfiability
+  1.7.1- 2 SAT - op // done 05/2021
  1.8- steiner tree
  1.9- graph coloring
  2.0- min-clique-cover
 2- matrix-chain multiplication
 3- tree isomorphism
-
-advanced math:
-1- floyd's cycle finding algo
-2- pollard rho 
-3- chinese remainder theorem
-4- FFT
-5- lucas' theorem(?)
-6- gaussian elimination algo
 
 
 // ------------------------------- // 
