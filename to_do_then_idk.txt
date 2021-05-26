@@ -10,6 +10,7 @@ math:
 5- expected value (revise & ## ~ :sadge:)
 6- generating functions
 	https://codeforces.com/blog/entry/77468 (zscoder ~ ^)
+7- josephus // done 05/2021
 
 graph:
 1- game theory on graphs
@@ -26,6 +27,7 @@ graph:
  7.2- edmons-karp algo 
  7.3- dinic's algo 
  7.4- push-relabel
+ 7.5- MPM algo
 8- heavy-light decomposition
 9- centroids / centroid decomposition
 
@@ -93,7 +95,6 @@ various:
 https://codeforces.com/blog/entry/62393 (neal ~ hash)
 5- https://codeforces.com/blog/entry/48417 (adamant ~ general ideas)
 
-
 game theory:
 1- sprague-grundy
  1.1- grundy number
@@ -105,7 +106,6 @@ game theory:
 
 https://codeforces.com/blog/entry/66040 (intuition behind nim & grundy)
 https://www.dropbox.com/sh/ancvcf5o2yijdll/AADO5fwX8WlwnbwePMDF77OAa/Game_Theory.pdf?dl=0
-
 
 [very advanced, probably not needed, but cool]
 -understanding them might be helpful
@@ -122,7 +122,7 @@ advanced math:
  1.1- pseudo polynomial:
   1.1.1- knapsack, subset-sum, coin-change
  1.2- TSP(travelling salesman problem)
- 1.3- lamiltonian path-tour
+ 1.3- hamiltonian path-tour
  1.4- longest path
  1.5- max-independent-set, min-vertex-cover
  1.6- min-set-cover, min-path-pcover
