@@ -5,9 +5,9 @@
 math:
 1- phi-totient func & extensions
 2- ext euc w/ bezouts identity (revise)
-3- catalan numbers // done 05/2021
-4- ternary search (revise)
-5- expected value (revise ~ :sadge:)
+3- catalan numbers // done 05/2021 (##)
+4- ternary search (revise & ##)
+5- expected value (revise & ## ~ :sadge:)
 6- generating functions
 	https://codeforces.com/blog/entry/77468 (zscoder ~ ^)
 
