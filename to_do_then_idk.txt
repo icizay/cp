@@ -28,6 +28,7 @@ graph:
  7.3- dinic's algo 
  7.4- push-relabel
  7.5- MPM algo
+ https://blog.anudeep2011.com/heavy-light-decomposition/
 8- heavy-light decomposition
 9- centroids / centroid decomposition
 
@@ -39,13 +40,14 @@ data structures:
 	https://codeforces.com/blog/entry/46507 (xellos ~ ^)
 2- advanced segment tree variations also techniques (persistent - beats - sparse, etc.)
 	https://codeforces.com/blog/entry/49446 (merging segment tree - to solve sorted list pbs)
+	beats: https://www.youtube.com/watch?v=NwkO73jGSPA
 3- dsu on sack ~ smaller to large ~ set swap
 4- ordered set(revise, experiment) // done 05/2021
 5- sparse table(revise) // done 05/2021 (##)
-6- sqrt decomposition - sqrt tree // done 05/2021
- 7.1- Mo's // done 05/2021
-  7.1.1- on Trees (https://codeforces.com/blog/entry/43230)	
-  
+6- sqrt decomposition// done 05/2021
+ 6.1- Mo's // done 05/2021
+  6.1.1- on Trees (https://codeforces.com/blog/entry/43230)	
+ 6.2- sqrt tree https://codeforces.com/blog/entry/91137
 https://codeforces.com/blog/entry/83969 (representing integer sets)
 
 string-stuff ~ and ds:
@@ -80,6 +82,7 @@ geometry:
  4.5- also rather common techniques(range query optimizations, exploiting monotonic properties, ...)
  https://codeforces.com/blog/entry/8219 (optimizations in brief)
  http://maratona.ic.unicamp.br/MaratonaVerao2017/documents/dp.pdf (same but more detailed)
+ https://codeforces.com/blog/entry/337 (dp on subsets & paths in graphs)
 5- travelling salesman pb
 
 advanced search techniques:
@@ -94,6 +97,9 @@ various:
 4- memorize a custom hash function
 https://codeforces.com/blog/entry/62393 (neal ~ hash)
 5- https://codeforces.com/blog/entry/48417 (adamant ~ general ideas)
+https://codeforces.com/blog/entry/82094
+https://www.youtube.com/watch?v=EG_HfFMM0lE (fracturing search ~ also check all algorithms live! videos)
+https://robert1003.github.io/(very cool tutorials about anything)
 
 game theory:
 1- sprague-grundy
